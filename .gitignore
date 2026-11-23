@@ -1,0 +1,11 @@
+# Python / tools
+.venv/
+__pycache__/
+.pytest_cache/
+.DS_Store
+
+# Large raw state vaccination files (only used to rebuild state_data CSVs;
+# download them from the state sources listed in new_data/measles_dashboard_vax_data_update.md)
+dashboard/new_data/state_data/Colorado_CDPHE_Colorado_School_and_Childcare_Immunization_Facility_Data_(2023-24_school_year_through_2025-26_school_year).csv
+dashboard/new_data/state_data/Washington_3481175-2025-2026BuildingRates.xlsx
+dashboard/new_data/state_data/NewYork_School_Immunization_Survey___Beginning_2019-20_School_Year_20260806.csv

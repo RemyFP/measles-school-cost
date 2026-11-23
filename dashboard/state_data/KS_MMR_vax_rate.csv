@@ -1,0 +1,244 @@
+Facility Number,School Type,School District or Name,Facility Address,County,MMR Vaccination Rate,Age Group
+D0101,,Erie-Galesburg,,Neosho,89.28,Kindergarten
+D0102,,Cimarron-Ensign,,Gray,93.33,Kindergarten
+D0105,,Rawlins County,,Rawlins,65.0,Kindergarten
+D0107,,Rock Hills,,Jewell,66.67,Kindergarten
+D0109,,Republic County,,Republic,86.67,Kindergarten
+D0111,,Doniphan West Schools,,Doniphan,100.0,Kindergarten
+D0112,,Central Plains,,Barton,89.19,Kindergarten
+D0113,,Prairie Hills,,Nemaha,100.0,Kindergarten
+D0114,,Riverside,,Doniphan,96.67,Kindergarten
+D0115,,Nemaha Central,,Nemaha,96.67,Kindergarten
+D0200,,Greeley County Schools,,Greeley,89.47,Kindergarten
+D0202,,Turner-Kansas City,,Wyandotte,90.0,Kindergarten
+D0204,,Bonner Springs,,Wyandotte,93.24,Kindergarten
+D0205,,Bluestem,,Butler,84.0,Kindergarten
+D0206,,Remington-Whitewater,,Butler,80.0,Kindergarten
+D0207,,Fort Leavenworth,,Leavenworth,92.17,Kindergarten
+D0208,,Trego County,,Trego,100.0,Kindergarten
+D0210,,Hugoton Public Schools,,Stevens,90.0,Kindergarten
+D0211,,Norton Community Schools,,Norton,86.67,Kindergarten
+D0212,,Northern Valley,,Norton,71.43,Kindergarten
+D0214,,Ulysses,,Grant,93.33,Kindergarten
+D0215,,Lakin,,Kearny,93.33,Kindergarten
+D0218,,Elkhart,,Morton,56.67,Kindergarten
+D0219,,Minneola,,Clark,56.25,Kindergarten
+D0223,,Barnes,,Washington,97.96,Kindergarten
+D0226,,Meade,,Meade,94.44,Kindergarten
+D0229,,Blue Valley,,Johnson,98.47,Kindergarten
+D0230,,Spring Hill,,Johnson,87.35,Kindergarten
+D0231,,Gardner Edgerton,,Johnson,91.16,Kindergarten
+D0232,,De Soto,,Johnson,100.0,Kindergarten
+D0233,,Olathe,,Johnson,90.65,Kindergarten
+D0234,,Fort Scott,,Bourbon,93.33,Kindergarten
+D0235,,Uniontown,,Bourbon,100.0,Kindergarten
+D0237,,Smith Center,,Smith,83.33,Kindergarten
+D0239,,North Ottawa County,,Ottawa,86.67,Kindergarten
+D0240,,Twin Valley,,Ottawa,100.0,Kindergarten
+D0241,,Wallace County Schools,,Wallace,78.56,Kindergarten
+D0243,,Lebo-Waverly,,Coffey,87.5,Kindergarten
+D0244,,Burlington,,Coffey,100.0,Kindergarten
+D0245,,LeRoy-Gridley,,Coffey,78.56,Kindergarten
+D0246,,Northeast,,Crawford,90.0,Kindergarten
+D0249,,Frontenac Public Schools,,Crawford,83.33,Kindergarten
+D0250,,Pittsburg,,Crawford,96.56,Kindergarten
+D0251,,North Lyon County,,Lyon,87.5,Kindergarten
+D0252,,Southern Lyon County,,Lyon,77.5,Kindergarten
+D0253,,Emporia,,Lyon,93.6,Kindergarten
+D0254,,Barber County North,,Barber,76.67,Kindergarten
+D0255,,South Barber,,Barber,81.82,Kindergarten
+D0256,,Marmaton Valley,,Allen,90.0,Kindergarten
+D0257,,Iola,,Allen,86.67,Kindergarten
+D0259,,Wichita,,Sedgwick,93.33,Kindergarten
+D0260,,Derby,,Sedgwick,91.06,Kindergarten
+D0261,,Haysville,,Sedgwick,88.23,Kindergarten
+D0262,,Valley Center Pub Sch,,Sedgwick,94.27,Kindergarten
+D0263,,Mulvane,,Sedgwick,86.67,Kindergarten
+D0265,,Goddard,,Sedgwick,90.25,Kindergarten
+D0266,,Maize,,Sedgwick,92.96,Kindergarten
+D0267,,Renwick,,Sedgwick,91.9,Kindergarten
+D0268,,Cheney,,Sedgwick,96.67,Kindergarten
+D0270,,Plainville,,Rooks,100.0,Kindergarten
+D0271,,Stockton,,Rooks,100.0,Kindergarten
+D0273,,Beloit,,Mitchell,100.0,Kindergarten
+D0274,,Oakley,,Logan,93.33,Kindergarten
+D0275,,Triplains,,Logan,60.0,Kindergarten
+D0281,,Graham County,,Graham,100.0,Kindergarten
+D0282,,West Elk,,Elk,63.64,Kindergarten
+D0284,,Chase County,,Chase,91.67,Kindergarten
+D0285,,Cedar Vale,,Chautauqua,76.92,Kindergarten
+D0286,,Chautauqua Co Community,,Chautauqua,54.55,Kindergarten
+D0287,,West Franklin,,Franklin,82.05,Kindergarten
+D0288,,Central Heights,,Franklin,93.1,Kindergarten
+D0289,,Wellsville,,Franklin,70.0,Kindergarten
+D0290,,Ottawa,,Franklin,98.5,Kindergarten
+D0293,,Quinter Public Schools,,Gove,75.0,Kindergarten
+D0294,,Oberlin,,Decatur,55.0,Kindergarten
+D0297,,St Francis Comm Sch,,Cheyenne,83.33,Kindergarten
+D0298,,Lincoln,,Lincoln,66.67,Kindergarten
+D0299,,Sylvan Grove,,Lincoln,81.82,Kindergarten
+D0300,,Comanche County,,Comanche,94.44,Kindergarten
+D0303,,Ness City,,Ness,82.61,Kindergarten
+D0305,,Salina,,Saline,93.33,Kindergarten
+D0306,,Southeast Of Saline,,Saline,96.67,Kindergarten
+D0307,,Ell-Saline,,Saline,100.0,Kindergarten
+D0308,,Hutchinson Public Schools,,Reno,96.05,Kindergarten
+D0309,,Nickerson,,Reno,95.08,Kindergarten
+D0310,,Fairfield,,Reno,85.71,Kindergarten
+D0311,,Pretty Prairie,,Reno,61.11,Kindergarten
+D0312,,Haven Public Schools,,Reno,100.0,Kindergarten
+D0313,,Buhler,,Reno,82.71,Kindergarten
+D0314,,Brewster,,Thomas,80.0,Kindergarten
+D0315,,Colby Public Schools,,Thomas,83.33,Kindergarten
+D0320,,Wamego,,Pottawatomie,79.31,Kindergarten
+D0322,,Onaga-Havensville-Wheaton,,Pottawatomie,85.71,Kindergarten
+D0323,,Rock Creek,,Pottawatomie,93.33,Kindergarten
+D0325,,Phillipsburg,,Phillips,80.0,Kindergarten
+D0326,,Logan,,Phillips,100.0,Kindergarten
+D0327,,Ellsworth,,Ellsworth,93.33,Kindergarten
+D0329,,Wabaunsee,,Wabaunsee,53.33,Kindergarten
+D0330,,Mission Valley,,Wabaunsee,96.0,Kindergarten
+D0331,,Kingman - Norwich,,Kingman,38.51,Kindergarten
+D0332,,Cunningham,,Kingman,82.35,Kindergarten
+D0333,,Concordia,,Cloud,93.33,Kindergarten
+D0335,,North Jackson,,Jackson,86.67,Kindergarten
+D0336,,Holton,,Jackson,83.33,Kindergarten
+D0337,,Royal Valley,,Jackson,83.33,Kindergarten
+D0338,,Valley Falls,,Jefferson,95.83,Kindergarten
+D0339,,Jefferson County North,,Jefferson,96.67,Kindergarten
+D0340,,Jefferson West,,Jefferson,93.33,Kindergarten
+D0341,,Oskaloosa Public Schools,,Jefferson,96.3,Kindergarten
+D0342,,McLouth,,Jefferson,90.0,Kindergarten
+D0343,,Perry Public Schools,,Jefferson,96.67,Kindergarten
+D0344,,Pleasanton,,Linn,68.42,Kindergarten
+D0345,,Seaman,,Shawnee,96.35,Kindergarten
+D0346,,Jayhawk,,Linn,90.0,Kindergarten
+D0347,,Kinsley-Offerle,,Edwards,88.24,Kindergarten
+D0348,,Baldwin City,,Douglas,93.33,Kindergarten
+D0349,,Stafford,,Stafford,93.75,Kindergarten
+D0350,,St John-Hudson,,Stafford,87.5,Kindergarten
+D0351,,Macksville,,Stafford,66.67,Kindergarten
+D0352,,Goodland,,Sherman,93.33,Kindergarten
+D0353,,Wellington,,Sumner,96.74,Kindergarten
+D0355,,Ellinwood Public Schools,,Barton,86.67,Kindergarten
+D0356,,Conway Springs,,Sumner,90.0,Kindergarten
+D0357,,Belle Plaine,,Sumner,100.0,Kindergarten
+D0360,,Caldwell,,Sumner,78.95,Kindergarten
+D0361,,Chaparral Schools,,Harper,77.8,Kindergarten
+D0362,,Prairie View,,Linn,92.59,Kindergarten
+D0363,,Holcomb,,Finney,100.0,Kindergarten
+D0364,,Marysville,,Marshall,93.33,Kindergarten
+D0366,,Woodson,,Woodson,96.43,Kindergarten
+D0368,,Paola,,Miami,86.67,Kindergarten
+D0369,,Burrton,,Harvey,71.43,Kindergarten
+D0371,,Montezuma,,Gray,90.0,Kindergarten
+D0372,,Silver Lake,,Shawnee,100.0,Kindergarten
+D0373,,Newton,,Harvey,93.84,Kindergarten
+D0374,,Sublette,,Haskell,73.33,Kindergarten
+D0375,,Circle,,Butler,82.12,Kindergarten
+D0376,,Sterling,,Rice,93.33,Kindergarten
+D0377,,Atchison Co Comm Schools,,Atchison,100.0,Kindergarten
+D0378,,Riley County,,Riley,100.0,Kindergarten
+D0379,,Clay Center,,Clay,95.43,Kindergarten
+D0380,,Vermillion,,Marshall,82.82,Kindergarten
+D0381,,Spearville,,Ford,90.0,Kindergarten
+D0382,,Pratt,,Pratt,90.0,Kindergarten
+D0383,,Manhattan-Ogden,,Riley,94.61,Kindergarten
+D0385,,Andover,,Butler,96.77,Kindergarten
+D0387,,Altoona-Midway,,Wilson,70.0,Kindergarten
+D0388,,Ellis,,Ellis,100.0,Kindergarten
+D0389,,Eureka,,Greenwood,96.67,Kindergarten
+D0392,,Osborne County,,Osborne,73.08,Kindergarten
+D0393,,Solomon,,Dickinson,90.0,Kindergarten
+D0394,,Rose Hill Public Schools,,Butler,86.67,Kindergarten
+D0395,,LaCrosse,,Rush,93.75,Kindergarten
+D0396,,Douglass Public Schools,,Butler,85.71,Kindergarten
+D0397,,Centre,,Marion,87.5,Kindergarten
+D0398,,Peabody-Burns,,Marion,85.71,Kindergarten
+D0400,,Smoky Valley,,McPherson,100.0,Kindergarten
+D0402,,Augusta,,Butler,91.07,Kindergarten
+D0404,,Riverton,,Cherokee,93.33,Kindergarten
+D0405,,Lyons,,Rice,86.67,Kindergarten
+D0407,,Russell County,,Russell,93.33,Kindergarten
+D0408,,Marion-Florence,,Marion,80.0,Kindergarten
+D0409,,Atchison Public Schools,,Atchison,100.0,Kindergarten
+D0410,,Durham-Hillsboro-Lehigh,,Marion,80.0,Kindergarten
+D0411,,Goessel,,Marion,88.24,Kindergarten
+D0412,,Hoxie Community Schools,,Sheridan,88.46,Kindergarten
+D0413,,Chanute Public Schools,,Neosho,76.67,Kindergarten
+D0415,,Hiawatha,,Brown,96.67,Kindergarten
+D0417,,Morris County,,Morris,95.27,Kindergarten
+D0418,,McPherson,,McPherson,94.54,Kindergarten
+D0419,,Canton-Galva,,McPherson,76.67,Kindergarten
+D0420,,Osage City,,Osage,58.33,Kindergarten
+D0421,,Lyndon,,Osage,89.28,Kindergarten
+D0423,,Moundridge,,McPherson,78.56,Kindergarten
+D0426,,Pike Valley,,Republic,73.33,Kindergarten
+D0428,,Great Bend,,Barton,95.61,Kindergarten
+D0429,,Troy Public Schools,,Doniphan,84.21,Kindergarten
+D0430,,South Brown County,,Brown,100.0,Kindergarten
+D0431,,Hoisington,,Barton,96.67,Kindergarten
+D0432,,Victoria,,Ellis,85.71,Kindergarten
+D0435,,Abilene,,Dickinson,93.33,Kindergarten
+D0436,,Caney Valley,,Montgomery,93.1,Kindergarten
+D0437,,Auburn-Washburn,,Shawnee,91.61,Kindergarten
+D0438,,Skyline Schools,,Pratt,87.5,Kindergarten
+D0439,,Sedgwick Public Schools,,Harvey,96.67,Kindergarten
+D0443,,Dodge City,,Ford,83.99,Kindergarten
+D0444,,Little River,,Rice,78.56,Kindergarten
+D0445,,Coffeyville,,Montgomery,100.0,Kindergarten
+D0446,,Independence,,Montgomery,90.0,Kindergarten
+D0447,,Cherryvale,,Montgomery,97.37,Kindergarten
+D0448,,Inman,,McPherson,76.67,Kindergarten
+D0449,,Easton,,Leavenworth,96.67,Kindergarten
+D0450,,Shawnee Heights,,Shawnee,94.86,Kindergarten
+D0452,,Stanton County,,Stanton,78.95,Kindergarten
+D0453,,Leavenworth,,Leavenworth,96.67,Kindergarten
+D0454,,Burlingame Public School,,Osage,96.15,Kindergarten
+D0456,,Marais Des Cygnes Valley,,Osage,62.5,Kindergarten
+D0457,,Garden City,,Finney,98.49,Kindergarten
+D0458,,Basehor-Linwood,,Leavenworth,100.0,Kindergarten
+D0459,,Bucklin,,Ford,91.67,Kindergarten
+D0460,,Hesston,,Harvey,96.67,Kindergarten
+D0461,,Neodesha,,Wilson,90.0,Kindergarten
+D0462,,Central,,Cowley,89.47,Kindergarten
+D0464,,Tonganoxie,,Leavenworth,96.67,Kindergarten
+D0465,,Winfield,,Cowley,96.52,Kindergarten
+D0466,,Scott County,,Scott,100.0,Kindergarten
+D0467,,Leoti,,Wichita,100.0,Kindergarten
+D0469,,Lansing,,Leavenworth,96.67,Kindergarten
+D0470,,Arkansas City,,Cowley,98.09,Kindergarten
+D0471,,Dexter,,Cowley,84.62,Kindergarten
+D0473,,Chapman,,Dickinson,84.8,Kindergarten
+D0474,,Haviland,,Kiowa,60.0,Kindergarten
+D0475,,Geary County Schools,,Geary,62.98,Kindergarten
+D0479,,Crest,,Anderson,72.22,Kindergarten
+D0480,,Liberal,,Seward,99.34,Kindergarten
+D0482,,Dighton,,Lane,100.0,Kindergarten
+D0483,,Kismet-Plains,,Seward,71.43,Kindergarten
+D0484,,Fredonia,,Wilson,100.0,Kindergarten
+D0487,,Herington,,Dickinson,85.19,Kindergarten
+D0489,,Hays,,Ellis,92.05,Kindergarten
+D0490,,El Dorado,,Butler,89.66,Kindergarten
+D0491,,Eudora,,Douglas,90.0,Kindergarten
+D0492,,Flinthills,,Butler,66.67,Kindergarten
+D0493,,Columbus,,Cherokee,100.0,Kindergarten
+D0494,,Syracuse,,Hamilton,92.86,Kindergarten
+D0495,,Ft Larned,,Pawnee,80.0,Kindergarten
+D0497,,Lawrence,,Douglas,92.92,Kindergarten
+D0498,,Valley Heights,,Marshall,82.76,Kindergarten
+D0499,,Galena,,Cherokee,90.0,Kindergarten
+D0500,,Kansas City,,Wyandotte,80.87,Kindergarten
+D0501,,Topeka Public Schools,,Shawnee,95.74,Kindergarten
+D0503,,Parsons,,Labette,100.0,Kindergarten
+D0504,,Oswego,,Labette,84.06,Kindergarten
+D0506,,Labette County,,Labette,91.03,Kindergarten
+D0507,,Satanta,,Haskell,88.89,Kindergarten
+D0508,,Baxter Springs,,Cherokee,100.0,Kindergarten
+D0512,,Shawnee Mission Pub Sch,,Johnson,97.96,Kindergarten
+Z0026,,Lutheran Schools (Topeka),,Shawnee,80.0,Kindergarten
+Z0028,,Dodge City Catholic Diocese,,Ford,94.0,Kindergarten
+Z0029,,Kansas City Catholic Diocese,,Wyandotte,85.42,Kindergarten
+Z0030,,Salina Catholic Diocese,,Saline,89.09,Kindergarten
+Z0031,,Wichita Catholic Diocese,,Sedgwick,95.47,Kindergarten
+Z0070,,Branches Academy,,Sedgwick,56.25,Kindergarten

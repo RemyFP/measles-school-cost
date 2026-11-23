@@ -1,0 +1,25 @@
+[project]
+name = "measles-school-cost"
+version = "0.1.0"
+description = "Measles school outbreak simulator with outbreak costs, agent-based model and engine comparison (test dashboard)"
+readme = "README.md"
+requires-python = ">=3.11"   # tomllib (cost_parameters.toml)
+dependencies = [
+    "dash==2.18.2",
+    "dash-bootstrap-components==1.7.1",
+    "numpy>=2.2",
+    "pandas>=2.2",
+    "plotly>=5.22,<6",
+    "matplotlib>=3.8",
+    "seaborn>=0.13.2",
+    "randomgen>=2.1.1",
+    "numba>=0.61",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+]
+
+[tool.uv]
+package = false   # an app, not an installable library

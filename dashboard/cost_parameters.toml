@@ -1,0 +1,149 @@
+# Outbreak cost model configuration
+# =================================
+# Everything the cost section of the dashboard needs is defined here. The
+# "Cost Parameters" dropdown in the dashboard is built automatically from the
+# [parameters.*] tables below: to add/remove/re-order an input, edit this file
+# only (and use the new key in cost_model.compute_outbreak_costs if it is a new
+# quantity).
+#
+# Costs depend on the number of infections in each simulation (isolation,
+# medical care) and on the number of student-days of quarantine (see
+# cost_model.py for how quarantine is obtained from each model).
+#
+# !!! DEFAULT VALUES ARE PLACEHOLDERS - they must be checked against the
+# !!! literature before public release. Fill in `source` for each.
+#
+# Fields for each parameter:
+#   value  default value shown in the dashboard
+#   min, max, step  bounds for the numeric input box
+#   label  text shown above the input box
+#   group  heading under which the input is displayed
+#   source reference / rationale for the default value (not displayed)
+
+[general]
+# Count the initially infected student(s) as cases in the cost calculations
+include_initial_cases = true
+# Currency symbol used in the display
+currency = "$"
+# Converts calendar days of quarantine to school / work days
+school_days_per_week = 5
+
+[counterfactual]
+# Number of counterfactual scenarios. Scenario k (k = 1..n) uses the
+# vaccination rate  v0 + k / (n + 1) * (100% - v0),  e.g. n = 2 and
+# v0 = 85% -> 90% and 95%. Users can overwrite these rates in the dashboard.
+n_scenarios = 2
+
+# ---------------------------------------------------------------------------
+# Isolation of cases (school absence of the sick student)
+# ---------------------------------------------------------------------------
+[parameters.isolation_days_per_case]
+value = 5.0
+min = 0.0
+max = 21.0
+step = 0.5
+label = "Isolation per case (calendar days)"
+group = "Isolation of cases"
+source = """Isolation through day 4 after rash onset (rash = day 0; CDC / state
+guidance, e.g. Wisconsin DHS P-00892a, Iowa HHS epi manual) = 5 calendar days
+(days 0-4). Converted to school days and parent work days with
+school_days_per_week / 7 (5 calendar days = 3.6 school days). Ignores school
+missed while ill during the prodrome (~4 days before rash)."""
+
+[parameters.caregiver_work_loss_prob]
+value = 0.7
+min = 0.0
+max = 1.0
+step = 0.05
+label = "Share of cases with a parent missing work"
+group = "Isolation of cases"
+source = "PLACEHOLDER"
+
+[parameters.caregiver_daily_wage]
+value = 250.0
+min = 0.0
+max = 2000.0
+step = 10.0
+label = "Parent daily wage ($)"
+group = "Isolation of cases"
+source = "PLACEHOLDER: approx. BLS median weekly earnings / 5; check current BLS value. Used for isolation and quarantine."
+
+# ---------------------------------------------------------------------------
+# Quarantine (exclusion) of exposed unvaccinated students
+# ---------------------------------------------------------------------------
+[parameters.quarantine_caregiver_work_loss_prob]
+value = 0.5
+min = 0.0
+max = 1.0
+step = 0.05
+label = "Share of quarantined students with a parent missing work"
+group = "Quarantine of unvaccinated students"
+source = """PLACEHOLDER: quarantined children are not sick, so fewer parents
+stay home than for a case (older students can stay alone, some parents
+telework), but exposed children cannot use group child care. Depends strongly
+on school level (elementary vs high school). Quarantine itself is only
+simulated by the ABM engines (21 days after each exposure, the 2025-26
+practice: CDC; Colorado CDPHE; Broomfield CO, Oxford PA and Portland OR schools
+in 2026; NY 2026 emergency order restarts the 21 days at each new exposure).
+Compartmental engines do not model quarantine and have no quarantine costs."""
+
+# ---------------------------------------------------------------------------
+# Medical care
+# ---------------------------------------------------------------------------
+[parameters.outpatient_visits_per_case]
+value = 0.8
+min = 0.0
+max = 10.0
+step = 0.1
+label = "Outpatient visits per case"
+group = "Medical care"
+source = "2025 New Mexico outbreak cost study: 79 outpatient visits for ~100 confirmed cases (direct medical costs ~$290K, of which ~$32K outpatient, i.e. ~$400 per visit)"
+
+[parameters.outpatient_visit_cost]
+value = 400.0
+min = 0.0
+max = 5000.0
+step = 10.0
+label = "Cost per outpatient visit ($)"
+group = "Medical care"
+source = "2025 New Mexico outbreak cost study: ~$32K outpatient costs for 79 visits (~$400 per visit)"
+
+[parameters.hosp_prob_unvaccinated]
+value = 0.10
+min = 0.0
+max = 1.0
+step = 0.01
+label = "Hospitalization probability, unvaccinated case"
+group = "Medical care"
+source = "PLACEHOLDER: check CDC hospitalization share among school-age cases"
+
+[parameters.hosp_prob_vaccinated]
+value = 0.0
+min = 0.0
+max = 1.0
+step = 0.01
+label = "Hospitalization probability, vaccinated (breakthrough) case"
+group = "Medical care"
+source = "PLACEHOLDER: breakthrough (modified) measles is usually milder"
+
+[parameters.hospitalization_cost]
+value = 20000.0
+min = 0.0
+max = 200000.0
+step = 500.0
+label = "Cost per hospitalization ($)"
+group = "Medical care"
+source = "PLACEHOLDER"
+
+# ---------------------------------------------------------------------------
+# Optional: public health response (contact tracing, PEP clinics, ...)
+# Often the largest cost of an outbreak in published studies; 0 = excluded.
+# ---------------------------------------------------------------------------
+[parameters.public_health_cost_per_case]
+value = 0.0
+min = 0.0
+max = 200000.0
+step = 500.0
+label = "Public health response cost per case ($)"
+group = "Public health response (optional)"
+source = "PLACEHOLDER: set > 0 to include"
